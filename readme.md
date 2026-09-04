@@ -30,16 +30,16 @@ A geração do BSP pelo VS Code é mais adequada do que pelo Eclipse/ADT quando 
 ### Passo a Passo
 
 1- Selecione "CREATE A SAP FIORI APP".
-![CREATE A SAP FIORI APP](./imagens/bsp1.jpg)
+<img src="./imagens/bsp1.jpg" width="800" height="500">
 
 2- Selecione "Configure a external IDE".
-![Configure a external IDE](./imagens/bsp2.jpg)
+<img src="./imagens/bsp2.jpg" width="800" height="500">
 
 3- Selecione "Visual Studio Code" , clicar em create.
-![Visual Studio Code](./imagens/bsp3.jpg)
+<img src="./imagens/bsp3.jpg" width="800" height="500">
 
 4- Selecione a entidade correspondente , clicar em create.
-![Visual Studio Code](./imagens/bsp4.jpg)
+<img src="./imagens/bsp4.jpg" width="800" height="500">
 
 5- Configure o servidor de conexão.
 
@@ -48,7 +48,7 @@ Connection Name : Nome da Conexão que será armazenada na IDE.
 URL: link de conexão do ambiente public cloud.
 
 Clique em Test connection , após validar clicar em create.
-![SAP System](./imagens/bsp5.jpg)
+<img src="./imagens/bsp5.jpg" width="800" height="500">
 
 6- SAP Fiori Generator.
 
@@ -66,17 +66,16 @@ Worklist — para listas de trabalho/processamento.
 
 Selecione o modelo e clique em NEXT.
 
-![SAP System](./imagens/bsp6.jpg)
+<img src="./imagens/bsp6.jpg" width="800" height="500">
 
-6- Main entity.
+7 - Main entity.
 
 Selecione a main entity e o Table type clique em NEXT.
 
-![SAP System](./imagens/bsp7.jpg)
+<img src="./imagens/bsp7.jpg" width="800" height="500">
 
-
-7- Project Attributes.
-
+8- Project Attributes.
+7
 Module Name - Nome do contexto de desenvolvimento separado por '.' 
 Ex: meudesenvolvimento.cadastro
 
@@ -94,35 +93,15 @@ Sobre os checkbox's não precisa alterar nada, no próximo passo iremos configur
 Clicar em Finish
 
 
-![SAP System](./imagens/bsp8.jpg)
+<img src="./imagens/bsp8.jpg"./imagens/bsp8.jpg" width="800" height="500">
 
-8 - Project Attributes.
-
-Module Name - Nome do contexto de desenvolvimento separado por '.' 
-Ex: meudesenvolvimento.cadastro
-
-Applitaction title - Titulo do desenvolvimento.
-
-Description - Descrição do desenvolvimento.
-
-Project folder... -  Pasta 'FIORI' Separada por projeto.
-
-Minimum SAP Version -  Sempre escolher (source system version).
-
-Sobre os checkbox's não precisa alterar nada, no próximo passo iremos configurar o deploy.
-
-
-Clicar em Finish
-
-
-![Project Attribute](./imagens/bsp8.jpg)
 
 
 9 - Project Attributes.
 
 Clicar em Add for deploy
 
-<img src="./imagens/bsp9.jpg" width="800">
+<img src="./imagens/bsp9.jpg" width="800" height="500">
 
 10 - Deployment configuration Generator.
 
@@ -144,8 +123,9 @@ Irá automaticamente selecionar a request que está armazenada o desenvolvimento
 
 Clicar em FINISH.
 
+<img src="./imagens/bsp10.jpg" width="800" height="500">
 
-10 - Abrir o Terminal .
+11 - Abrir o Terminal .
 
 digitar: "npm run deploy"
 
@@ -153,7 +133,7 @@ Irá pedir a confirmação: Basta digitar Y.
 
 Ao final aparecerá que o deploy ocorreu com sucesso.
 
-<img src="./imagens/bsp11.jpg" width="800">
+<img src="./imagens/bsp11.jpg" width="800" height="500">
 
 
 
